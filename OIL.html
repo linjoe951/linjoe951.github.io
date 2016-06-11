@@ -56,16 +56,69 @@
         <CENTER>
             <div class="row">
                 <div class="col-md-12">
-                    <a href="http://web3.moeaboe.gov.tw/oil102/" target="_blank" class="btn btn-danger btn-lg">2008年金融海嘯</a>
-                    <a href="http://web3.moeaboe.gov.tw/oil102/" target="_blank" class="btn btn-success btn-lg">2011年阿拉伯之春</a>
-                    <a href="http://web3.moeaboe.gov.tw/oil102/" target="_blank" class="btn btn-warning btn-lg">2014年頁岩油革命</a>
-                    <a href="http://web3.moeaboe.gov.tw/oil102/" target="_blank" class="btn btn-primary btn-lg">2016年最近情況</a>
+                    <a href="http://linjoe951.github.io/2008.html" target="_blank" class="btn btn-danger btn-lg">2008年金融海嘯</a>
+                    <a href="http://linjoe951.github.io/2011.html" target="_blank" class="btn btn-success btn-lg">2011年阿拉伯之春</a>
+                    <a href="http://linjoe951.github.io/2014.html" target="_blank" class="btn btn-warning btn-lg">2014年頁岩油革命</a>
+                    <a href="http://linjoe951.github.io/2016.html" target="_blank" class="btn btn-primary btn-lg">2016年最近情況</a>
                 </div>
             </div>
         </CENTER>
         <br>
         <br>
        
+        <!-- 中標題 -->
+        <div class="page-header">
+            <h1>騎機車的每週油錢簡單估計 <small>以每公升約25元台幣，能騎約40公里計算</small></h1>
+        </div>
+        <!-- 內文 -->
+        <FONT size="4">請輸入大概每天會騎多少公里
+        </FONT>
+
+     <script type="text/javascript">
+     var Sum =function() {
+     // 將 id=A 的 input 值取出來
+     var a = $('#每天騎幾公里').val();
+     // 將 id=B 的 input 值取出來
+     // var b = $('#B').val();
+     // 將文字轉數字
+     a = parseInt(a);
+     // 計算 a
+     var c = a*7/40*25 ;
+     // 將 c 顯示出來
+     $('#output').text(c);}
+    
+        </script> 
+        <br>
+        <input type="text" id="每天騎幾公里">
+        <br>
+        <a href="#" onclick="Sum();" class="btn btn-primary">計算</a><br>
+        <span id="output"></span>
+
+       <!-- 中標題 -->
+        <div class="page-header">
+            <h1>開汽車的每週油錢簡單估計 <small>以每公升約25元台幣，能開約15公里計算</small></h1>
+        </div>
+        <!-- 內文 -->
+        <FONT size="4">請輸入大概每天會開多少公里
+        </FONT>
+
+     <script type="text/javascript">
+     var Sum2 =function() {
+     // 將 id 的 input 值取出來
+     var b = $('#每天開幾公里').val();
+     // 將文字轉數字
+     b = parseInt(b);
+     var d = b*7/40*25 ;
+     // 將 d 顯示出來
+     $('#output2').text(d);}
+    
+        </script> 
+        <br>
+        <input type="text" id="每天開幾公里">
+        <br>
+        <a href="#" onclick="Sum2();" class="btn btn-primary">計算</a><br>
+        <span id="output2"></span>
+
        
         <!-- 中標題 -->
         <div class="page-header">
