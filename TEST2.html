@@ -19,8 +19,8 @@
     <div class="container">
         <!-- 巨大標題 -->
         <div class="jumbotron">
-            <h1>原油價格簡介</h1>
-            <p>近十年的國際油價討論</p>
+            <h1>2008年金融海嘯</h1>
+            <p>造成油價驟跌</p>
         </div>
         <!-- 中標題 -->
         <div class="page-header">
@@ -78,7 +78,6 @@
         <br>
         <br>
         <br>
-        <br>
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -86,6 +85,43 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
             crossorigin="anonymous"></script>
+    
+    
+    
+    
+    <script type="text/javascript">
+var Sum =function() {
+  // 將 id=A 的 input 值取出來
+  var a = $('#A').val();
+  // 將 id=B 的 input 值取出來
+  var b = $('#B').val();
+  
+  // 將文字轉數字
+  a = parseInt(a);
+  b = parseInt(b);
+  // 計算 a+b
+  var c = a * b;
+  // 將 c 顯示出來
+  $('#output').text(c);
+}
+</script>
+
+
+
+A<br>
+<input type="text" id="A"><br>
+B<br>
+<input type="text" id="B"><br>
+
+<a href="#" onclick="Sum();" class="btn btn-primary">計算</a><br>
+
+<span id="output"></span>
+    
+    
+    
+    
+    
+    
     </div>
 </body>
 

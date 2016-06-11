@@ -6,5 +6,34 @@
 </head>
 <body>
 Hello!!
+
+<script type="text/javascript">
+var Sum =function() {
+  // 將 id=A 的 input 值取出來
+  var a = $('#A').val();
+  // 將 id=B 的 input 值取出來
+  var b = $('#B').val();
+  
+  // 將文字轉數字
+  a = parseInt(a);
+  b = parseInt(b);
+  // 計算 a+b
+  var c = a + b;
+  // 將 c 顯示出來
+  $('#output').text(c);
+}
+</script>
+
+
+
+A<br>
+<input type="text" id="A"><br>
+B<br>
+<input type="text" id="B"><br>
+
+<a href="#" onclick="Sum();" class="btn btn-primary">計算</a><br>
+
+<span id="output"></span>
+
 </body>
 </html> 
