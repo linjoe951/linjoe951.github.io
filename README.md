@@ -2,5 +2,5 @@
 
 This website is about the introduction of oil price.
 
-Links : 
+Link : 
 [Oil Price](http://linjoe951.github.io/OIL.html)
